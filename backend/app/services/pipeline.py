@@ -4,7 +4,6 @@ from sqlmodel import Session, select
 from app.core.config import settings
 from app.models.db import Bubble, Page, Project, ProjectStatus
 from app.utils.files import ensure_dir, extract_input, make_cbz
-from .ocr import DemoOCR, TextRegion
 from .translate import get_translator
 from .inpaint import InpaintService
 from .render import ArabicRenderer
