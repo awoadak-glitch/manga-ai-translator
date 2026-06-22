@@ -2,6 +2,7 @@ import uuid
 from pathlib import Path
 from sqlmodel import Session, select
 from app.core.config import settings
+from .ocr import DemoOCR
 from app.models.db import Bubble, Page, Project, ProjectStatus
 from app.utils.files import ensure_dir, extract_input, make_cbz
 from .translate import get_translator
