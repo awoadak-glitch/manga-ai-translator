@@ -1,0 +1,1 @@
+Tests can be added here. CI currently runs ruff and a FastAPI import smoke test.
